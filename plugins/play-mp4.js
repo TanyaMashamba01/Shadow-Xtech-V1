@@ -5,7 +5,7 @@ cmd({
     pattern: "mp4", 
     alias: ["video"], 
     react: "🎥", 
-    desc: "Download YouTube video", 
+    desc: "Download J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ YouTube video", 
     category: "main", 
     use: '.mp4 < Yt url or Name >', 
     filename: __filename 
@@ -28,13 +28,13 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
 
-        let ytmsg = `📹 *Shadow-Xtech Video Downloader*
+        let ytmsg = `📹 *J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ Video Downloader*
 🎬 *Title:* ${yts.title}
 ⏳ *Duration:* ${yts.timestamp}
 👀 *Views:* ${yts.views}
 👤 *Author:* ${yts.author.name}
 🔗 *Link:* ${yts.url}
-> Powered by Shadow-Xtech 🩷`;
+> Powered by J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞ 🩷`;
 
         // Send video directly with caption
         await conn.sendMessage(
