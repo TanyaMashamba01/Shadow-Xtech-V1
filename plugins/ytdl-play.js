@@ -44,7 +44,7 @@ cmd({
             ptt: false
         }, { quoted: mek });
 
-        await reply(`✅ *${title}* downloaded successfully!`);
+        await reply(`✅ *${title}* downloaded successfully! by J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞`);
 
     } catch (error) {
         console.error(error);
