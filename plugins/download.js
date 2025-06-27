@@ -247,14 +247,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 *APK Downloader* 〕━━━┈⊷
+    const caption = `╭━━━〔 *J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ APK Downloader* 〕━━━┈⊷
 ┃ 📦 *Name:* ${app.name}
 ┃ 🏋 *Size:* ${appSize} MB
 ┃ 📦 *Package:* ${app.package}
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ🔒*`;
+🔗 *Powered By https://youtube.com/@joshuamambo1🔒*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
