@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "✅", 
+    react: "✅🫡🇿🇼", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/149k8x.jpg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/cik12y.jpg' }, // Image URL from your request
             caption: `╭────✧〈『 ${config.BOT_NAME} 』 〉 ✧───◆
 ┴╭──────────────────๏
 │┃★├─
@@ -40,14 +40,14 @@ async (conn, mek, m, { from }) => {
 │┃★├─
 ┬╰──────────────────๏
 ╰─────···▸Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ··────◆
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ`, // Display the owner's details
+> © ᵖᵒʷᵉʳᵉᵈ ᵇʸ ☘ℕ𝕖𝕥𝕂𝕚𝕟𝕘 𝕄𝔻☘ ˢᵘᵇˢᶜʳⁱᵇᵉ ᵗᵒ https://youtube.com/@joshuamambo1 ᶠᵒʳ ᵐᵒʳᵉ ᵗᵘᵗᵒʳⁱᵃˡˢ`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363369453603973@newsletter',
-                    newsletterName: 'Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ',
+                    newsletterJid: '120363347365643318@newsletter',
+                    newsletterName: 'Joshuamambo1 Alive',
                     serverMessageId: 143
                 }            
             }
@@ -55,7 +55,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/jgrfm3.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/vpnq7.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
