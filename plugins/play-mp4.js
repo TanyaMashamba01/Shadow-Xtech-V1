@@ -101,7 +101,7 @@ cmd({
             }
         }, { quoted: mek });
 
-        await reply("✅ **Enjoy your song!** Let the good vibes flow! 🎧\n\n_Don't forget to join our WhatsApp Channel for more updates!_");
+        await reply("✅ **Enjoy your song!** Let the good vibes flow! 🎧\n\n_Don't forget to join our WhatsApp Channel for more updates!_" J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞);
 
     } catch (error) {
         console.error(error);
