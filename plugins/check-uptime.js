@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363369453603973@newsletter',
-                    newsletterName: config.OWNER_NAME || 'Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ',
+                    newsletterJid: '120363347365643318@newsletter',
+                    newsletterName: config.OWNER_NAME || 'J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞',
                     serverMessageId: 143
                 }
             }
@@ -131,3 +131,15 @@ ${config.DESCRIPTION}`;
         reply(`❌ Error: ${e.message}`);
     }
 });
+
+‎
+‎    }, { quoted: mek });
+‎
+‎    if (sendAudio) {
+‎      await conn.sendMessage(from, {
+‎        audio: { url: 'https://files.catbox.moe/sw34lv.mp4' },
+‎        mimetype: 'audio/mp4',
+‎        ptt: true
+‎      }, { quoted: mek });
+‎    }
+‎
