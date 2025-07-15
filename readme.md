@@ -68,7 +68,7 @@ Click the button below to fork:
 - [Black-Tappy](https://github.com/Black-Tappy)
 - Creater and Owner Of XEON-XMD 
 > Sʜᴀᴅᴏᴡ Xᴛᴇᴄʜ Helpers 
-- [POPKID](https://github.com/Popkiddevs)
+- [I Sell Kids_😂🏷️](https://github.com/Tappy-Black)
 - For helping in bot plugin files.
   
 

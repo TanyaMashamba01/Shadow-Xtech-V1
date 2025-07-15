@@ -138,7 +138,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │  • define, news, movie, weather
 │  • srepo, insult, save, wikipedia
 │  • gpass, githubstalk
-│  • yts, ytv
+│  • yts, ytv ,yts
 ╰─┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈─╯
 ༻─────────────────────༺
 
