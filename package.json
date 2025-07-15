@@ -9,7 +9,7 @@
     "restart": "pm2 restart SHADOW-XTECH"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
+    "@whiskeysockets/baileys": "github:devibraah/bwmxmdtech",
     "@rodrigogs/baileys-store": "^1.0.1",
     "@adiwajshing/keyed-db": "^1.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
